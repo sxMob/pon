@@ -1,4 +1,4 @@
-function p(txt)-- function "p" which will write "[CONSOLE] >> " to each message written by the console
+function p(txt)-- function "p" which will write "[CONSOLE] >> " to each message written by the console 
     rconsoleprint("\n[CONSOLE] >> "..txt)
 end
 
@@ -43,7 +43,7 @@ function Start()-- The script is made using functions to be able to start again 
         imputted_commande()
     end
 end
-Start()
+Start() -- Mob Protection Epta
 
 repeat wait() until game:IsLoaded()
 
